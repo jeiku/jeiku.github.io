@@ -1,6 +1,11 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import {
+  OrbitControls,
+  MeshReflectorMaterial,
+  Preload,
+  useGLTF,
+} from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
@@ -26,25 +31,27 @@ const Computers = ({ isMobile }) => {
     //     rotation={[-0.01, -0.2, -0.1]}
     //   />
     // </mesh>
+
     <mesh>
-      <hemisphereLight intensity={1} groundColor='black' />
-      <spotLight
-        position={[-20, 50, 10]}
-        angle={0.12}
-        penumbra={1}
-        intensity={1}
+      <hemisphereLight
+        intensity={900}
+        groundColor='black'
+        position={[0, 300, 0]}
       />
+      <spotLight position={[0, 0, 20]} angle={1} penumbra={1} intensity={700} />
       <pointLight
         intensity={1}
         position={[10, 0, 0]}
         scale={7}
         rotation={[-0.01, -1.5, -0.2]}
       />
+      <directionalLight position={[75, 300, -75]} intensity={6000} />
+      <MeshReflectorMaterial mirror={[1]} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 2.25}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -1.5, -0.2]}
+        scale={isMobile ? 3 : 4}
+        position={isMobile ? [0, -3.5, -0.4] : [0, -5.55, -1.5]}
+        rotation={[-0.22, -1.5, -0.2]}
       />
     </mesh>
   );
