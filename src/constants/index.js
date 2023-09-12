@@ -15,10 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  lhasa,
+  ep,
   carrent,
   jobit,
   tripguide,
@@ -118,8 +116,8 @@ const experiences = [
   {
     title: "Fullstack React Developer",
     company_name: "Everypast.com",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: ep,
+    iconBg: "#FFF",
     date: "Nov 2020 - Present",
     points: [
       "Created and designed all front-end aspects using React.js, Material UI and a Django RESTful backend with global state managed with Redux",
@@ -130,8 +128,8 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Lhasa OMS",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: lhasa,
+    iconBg: "#FFF",
     date: "Mar 2021 - Present",
     points: [
       "Redesigned and optimized front-end user experience within our Adobe Commerce platoform using HTML CSS and Javascript in collaboration with creative and marketing teams correlating in a 5% increased conversion rate per Google Analytics",
