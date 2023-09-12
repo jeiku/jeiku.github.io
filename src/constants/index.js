@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fullstack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Artist",
     icon: creator,
   },
 ];
@@ -116,55 +116,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Fullstack React Developer",
+    company_name: "Everypast.com",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created and designed all front-end aspects using React.js, Material UI and a Django RESTful backend with global state managed with Redux",
+      "Allows users to sign up, log in, update profile, add sub-users, and answer questions relating to their family history which appear on their public profile",
+      "Maintain and add enhancements per clients request – currently adding email verification and messaging system between users with Socket.io",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Lhasa OMS",
+    icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Mar 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Redesigned and optimized front-end user experience within our Adobe Commerce platoform using HTML CSS and Javascript in collaboration with creative and marketing teams correlating in a 5% increased conversion rate per Google Analytics",
+      "Add, update and maintain products, product widgets, banners and marketing materials within Magento and frontend product pages",
+      "Provide complete IT technical support, troubleshooting and system operations for all teams and worked closely with Warehouse Manager to install and maintain new kiosks to better aid in item receiving and fulfillment",
+      "Helped transition company from a legacy UNIX system to a new NetSuite ERP, including creating 40-page technical help documentation for team members",
+      "Participate in code reviews and providing constructive feedback with other developers.",
     ],
   },
 ];

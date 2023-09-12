@@ -52,13 +52,8 @@ const About = () => {
         Node.js and other tools. I am a quick learner and love tinkering with
         new technology to create clean web applications. I am great at working
         solo and collaborating with teams on projects. I also have spcialty IT
-        experience dealing with management of multiple teams across companies
-        and dealing with outside resources, clients and developers. I'm a
-        skilled software developer with experience in TypeScript and JavaScript,
-        and expertise in frameworks like React, Node.js, and Three.js. I'm a
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        experience managing multiple teams company-wide and handling outside
+        resources, clients and developers.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
