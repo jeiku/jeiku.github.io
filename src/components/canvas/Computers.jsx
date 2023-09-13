@@ -5,6 +5,7 @@ import {
   MeshReflectorMaterial,
   Preload,
   useGLTF,
+  Float,
 } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
@@ -31,29 +32,47 @@ const Computers = ({ isMobile }) => {
     //     rotation={[-0.01, -0.2, -0.1]}
     //   />
     // </mesh>
+    <Float floatIntensity={2}>
+      <mesh>
+        <ambientLight intensity={1000} />
+        <hemisphereLight
+          intensity={900}
+          groundColor='black'
+          position={[0, 300, 0]}
+        />
+        <spotLight
+          position={[0, 0, 20]}
+          angle={1}
+          penumbra={1}
+          intensity={700}
+          color={"#F40EFF"}
+        />
+        <pointLight
+          intensity={1}
+          position={[10, 0, 0]}
+          scale={7}
+          rotation={[-0.01, -1.5, -0.2]}
+        />
 
-    <mesh>
-      <hemisphereLight
-        intensity={900}
-        groundColor='black'
-        position={[0, 300, 0]}
-      />
-      <spotLight position={[0, 0, 20]} angle={1} penumbra={1} intensity={700} />
-      <pointLight
-        intensity={1}
-        position={[10, 0, 0]}
-        scale={7}
-        rotation={[-0.01, -1.5, -0.2]}
-      />
-      <directionalLight position={[75, 300, -75]} intensity={6000} />
-      <MeshReflectorMaterial mirror={[1]} />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 3 : 4}
-        position={isMobile ? [0, -3.5, -0.4] : [0, -5.55, -1.5]}
-        rotation={[-0.22, -1.5, -0.2]}
-      />
-    </mesh>
+        <directionalLight
+          position={[75, 300, -75]}
+          intensity={6000}
+          color={"#1DFFBE"}
+        />
+        <directionalLight
+          position={[0, 0, 0.05]}
+          intensity={6000}
+          color={"#1DFFBE"}
+        />
+        {/* <MeshReflectorMaterial mirror={[1]} /> */}
+        <primitive
+          object={computer.scene}
+          scale={isMobile ? 3 : 4}
+          position={isMobile ? [0, -3.5, -0.4] : [0, -5.55, -1.5]}
+          rotation={[-0.22, -1.5, -0.2]}
+        />
+      </mesh>
+    </Float>
   );
 };
 
