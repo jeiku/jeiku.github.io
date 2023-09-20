@@ -17,9 +17,9 @@ import {
   docker,
   lhasa,
   ep,
-  carrent,
-  jobit,
-  tripguide,
+  amazonclone,
+  islandmanor,
+  memories,
   threejs,
 } from "../assets";
 
@@ -170,9 +170,53 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Amazon Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An Amazon clone that allows users to register an account, login, make purchases and view order history. Authentication is done in Firebase and payments are processed using Sripe API. Orders stored Firestore Database.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: amazonclone,
+    live_link: "https://clone-9ecc3.firebaseapp.com/",
+    source_code_link: "https://github.com/jeiku/react-amazon-clone",
+  },
+  {
+    name: "The Island Manor",
+    description:
+      "A vacation rental website that I made for a client. Built using HTML, Sass, JavaScript and scrollRevealJS. This site is mostly informational. Client requested not to maintain SSL certification.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: islandmanor,
+    live_link: "https://theislandmanor.com/",
+    source_code_link: "https://github.com/jeiku/beach-house-website",
+  },
+  {
+    name: "Memories",
+    description:
+      "Fullstack Social Media Memories app using the MERN stack and built in React & Material UI with Redux state management. Full CRUD app; users can create, read, update and delete posts.",
     tags: [
       {
         name: "react",
@@ -183,54 +227,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "material UI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: memories,
+    live_link: "#",
+    source_code_link: "https://github.com/jeiku/react-memories",
   },
 ];
 

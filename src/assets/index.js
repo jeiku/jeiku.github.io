@@ -25,9 +25,9 @@ import threejs from "./tech/threejs.svg";
 import ep from "./company/ep.png";
 import lhasa from "./company/lhasa.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import amazonclone from "./amazonclone.jpg";
+import islandmanor from "./islandmanor.jpg";
+import memories from "./memories.png";
 
 export {
   logo,
@@ -53,7 +53,7 @@ export {
   threejs,
   ep,
   lhasa,
-  carrent,
-  jobit,
-  tripguide,
+  amazonclone,
+  islandmanor,
+  memories,
 };
