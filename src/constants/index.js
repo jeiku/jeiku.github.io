@@ -136,7 +136,7 @@ const experiences = [
       "Add, update and maintain products, product widgets, banners and marketing materials within Magento and frontend product pages",
       "Provide complete IT technical support, troubleshooting and system operations for all teams and worked closely with Warehouse Manager to install and maintain new kiosks to better aid in item receiving and fulfillment",
       "Helped transition company from a legacy UNIX system to a new NetSuite ERP, including creating 40-page technical help documentation for team members",
-      "Participate in code reviews and providing constructive feedback with other developers.",
+      "Participate in code reviews providing constructive feedback with other developers.",
     ],
   },
 ];
@@ -144,27 +144,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Jake is the ideal web developer/designer. Outstanding work, outstanding communication.",
+    name: "Josiah Schmidt",
+    designation: "CEO",
+    company: "EveryPast",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "I bought from this seller a few times and always fast communication and work",
+    name: "t_dong",
+    designation: "None",
+    company: "Fiverr Buyer",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
+      "Jake is awesome. He was tentative to my needs and delivered exactly what I was expecting. 10/10",
+    name: "generawlinson",
+    designation: "None",
+    company: "Fiverr Buyer",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 

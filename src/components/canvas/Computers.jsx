@@ -64,7 +64,7 @@ const Computers = ({ isMobile }) => {
           intensity={6000}
           color={"#1DFFBE"}
         />
-        {/* <MeshReflectorMaterial mirror={[1]} /> */}
+
         <primitive
           object={computer.scene}
           scale={isMobile ? 3 : 4}
