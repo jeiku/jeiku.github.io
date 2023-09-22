@@ -111,6 +111,7 @@ const ComputersCanvas = () => {
       {/* REact- loader to be there while model is loading */}
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
           enableZoom={false}
           // Allows us to rotate it only around a specific angle
           maxPolarAngle={Math.PI / 2}

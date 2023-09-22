@@ -146,15 +146,13 @@ const testimonials = [
     testimonial:
       "Jake is the ideal web developer/designer. Outstanding work, outstanding communication.",
     name: "Josiah Schmidt",
-    designation: "CEO",
-    company: "EveryPast",
+    company: "CEO of EveryPast",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
       "I bought from this seller a few times and always fast communication and work",
     name: "t_dong",
-    designation: "None",
     company: "Fiverr Buyer",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
@@ -162,7 +160,6 @@ const testimonials = [
     testimonial:
       "Jake is awesome. He was tentative to my needs and delivered exactly what I was expecting. 10/10",
     name: "generawlinson",
-    designation: "None",
     company: "Fiverr Buyer",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },

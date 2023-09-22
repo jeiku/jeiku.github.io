@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects showcases some of my skills and experience
+          The following projects showcase some of my skills and experience
           through real-world examples of my work and some fun side projects.
           Each project is briefly described with links to code repositories and
           live demos inside. I am always learning new things so projects will
