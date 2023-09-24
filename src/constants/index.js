@@ -25,16 +25,24 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About",
   },
   {
-    id: "work",
+    id: "#work",
     title: "Work",
   },
   {
-    id: "contact",
+    id: "#contact",
     title: "Contact",
+  },
+  {
+    id: "https://www.linkedin.com/in/jakewest91/",
+    title: "Linkedin",
+  },
+  {
+    id: "https://github.com/jeiku",
+    title: "Github",
   },
 ];
 
