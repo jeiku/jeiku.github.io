@@ -128,9 +128,9 @@ const experiences = [
     iconBg: "#FFF",
     date: "Nov 2020 - Present",
     points: [
-      "Created and designed all front-end aspects using React.js, Material UI and a Django RESTful backend with global state managed with Redux",
-      "Allows users to sign up, log in, update profile, add sub-users, and answer questions relating to their family history which appear on their public profile",
-      "Maintain and add enhancements per clients request – currently adding email verification and messaging system between users with Socket.io",
+      "Collaborated with a client as a freelance developer to launch an autographical ancestry tool using Python and Django Restful Framework combined with React, Material UI and Redux, enabling users to create profiles and document the stories of their family heritage",
+      "Designed and implemented an interactive and filterable questionnaire feature that allows users to answer thought-provoking questions related to their family that become saved and manageable on their profile",
+      "Allows users to sign up, log in, update profile, add sub-users and manage all questions and answers directly from their profile page",
     ],
   },
   {
@@ -140,11 +140,11 @@ const experiences = [
     iconBg: "#FFF",
     date: "Mar 2021 - Present",
     points: [
-      "Redesigned and optimized front-end user experience within our Adobe Commerce platoform using HTML CSS and Javascript in collaboration with creative and marketing teams correlating in a 5% increased conversion rate per Google Analytics",
-      "Add, update and maintain products, product widgets, banners and marketing materials within Magento and frontend product pages",
-      "Provide complete IT technical support, troubleshooting and system operations for all teams and worked closely with Warehouse Manager to install and maintain new kiosks to better aid in item receiving and fulfillment",
-      "Helped transition company from a legacy UNIX system to a new NetSuite ERP, including creating 40-page technical help documentation for team members",
-      "Participate in code reviews providing constructive feedback with other developers.",
+      "Redesigned and optimized front-end user experience using HTML CSS and JavaScript in collaboration with creative and marketing teams correlating in a 5% increased conversion rate",
+      "Demonstrate leadership capabilities in overseeing various e-commerce projects, creating system requirements, and assigning tasks within Jira and Confluence",
+      "Add, update and maintain products, widgets, emails and marketing materials within Magento 2 and frontend product pages",
+      "Assist in the development, maintenance, and enhancement of saved searches, workflows, and scripts in our NetSuite ERP, alongside managing account administration duties",
+      "Create and manage new flows within our Celigo integration tool, linking our various platforms and establishing connections with APIs like UPS and FedEx for enhanced data management",
     ],
   },
 ];
