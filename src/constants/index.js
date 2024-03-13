@@ -122,18 +122,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Fullstack React Developer",
-    company_name: "Everypast.com",
-    icon: ep,
-    iconBg: "#FFF",
-    date: "Nov 2020 - Present",
-    points: [
-      "Collaborated with a client as a freelance developer to launch an autographical ancestry tool using Python and Django Restful Framework combined with React, Material UI and Redux, enabling users to create profiles and document the stories of their family heritage",
-      "Designed and implemented an interactive and filterable questionnaire feature that allows users to answer thought-provoking questions related to their family that become saved and manageable on their profile",
-      "Allows users to sign up, log in, update profile, add sub-users and manage all questions and answers directly from their profile page",
-    ],
-  },
-  {
     title: "Web Developer",
     company_name: "Lhasa OMS",
     icon: lhasa,
@@ -145,6 +133,18 @@ const experiences = [
       "Add, update and maintain products, widgets, emails and marketing materials within Magento 2 and frontend product pages",
       "Assist in the development, maintenance, and enhancement of saved searches, workflows, and scripts in our NetSuite ERP, alongside managing account administration duties",
       "Create and manage new flows within our Celigo integration tool, linking our various platforms and establishing connections with APIs like UPS and FedEx for enhanced data management",
+    ],
+  },
+  {
+    title: "Fullstack React Developer",
+    company_name: "Everypast",
+    icon: ep,
+    iconBg: "#FFF",
+    date: "June 2021 - Dec 2023",
+    points: [
+      "Collaborated with a client as a freelance developer to launch an autographical ancestry tool using Python and Django Restful Framework combined with React, Material UI and Redux, enabling users to create profiles and document the stories of their family heritage",
+      "Designed and implemented an interactive and filterable questionnaire feature that allows users to answer thought-provoking questions related to their family that become saved and manageable on their profile",
+      "Allows users to sign up, log in, update profile, add sub-users and manage all questions and answers directly from their profile page",
     ],
   },
 ];
